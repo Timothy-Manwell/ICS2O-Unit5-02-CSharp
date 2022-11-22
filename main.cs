@@ -18,12 +18,14 @@ class Program
         Console.Write("\nType 1 for a positive number or 2 for a negative number: ");
         prefer = Convert.ToInt32(Console.ReadLine());
 
-        if (prefer == 1)
+        if(prefer == 1)
         {
             Console.WriteLine("\nYour random positive number is " + randomNumPos);
-        } else if (prefer == 2){
+        }else if(prefer == 2)
+        {
             Console.WriteLine("\nYour random negative number is " + randomNumNeg);
-        } else {
+        }else
+        {
           Console.WriteLine("\nUnknown input. Try again");
         }
     }
