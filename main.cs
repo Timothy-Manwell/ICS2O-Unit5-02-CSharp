@@ -21,10 +21,12 @@ class Program
         if (prefer == 1)
         {
             Console.WriteLine("\nYour random positive number is " + randomNumPos);
-        }else if (prefer == 2)
+        }
+        else if (prefer == 2)
         {
             Console.WriteLine("\nYour random negative number is " + randomNumNeg);
-        }else
+        }
+        else
         {
             Console.WriteLine("\nUnknown input. Try again");
         }
